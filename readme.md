@@ -1,4 +1,4 @@
-# 西交自动打卡脚本 (auto\_check\_in.py) 部署指南
+# 西交体美劳自主锻炼自动打卡脚本 (auto\_check\_in.py) 部署指南
 
 本项目使用 Python、Playwright 和 Requests 库，实现自动模拟登录、获取Token，并执行每日锻炼签到与签退操作。
 
