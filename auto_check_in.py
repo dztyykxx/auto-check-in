@@ -79,7 +79,7 @@ def login_and_get_token_with_playwright():
             print(" [2] 正在等待登录组件加载并输入账号密码...")
 
             # 定义所有需要的元素定位器
-            username_input = page.locator('[placeholder="职工号/学号/手机号"]')
+            username_input = page.locator('[placeholder="请输入职工号/学号/手机号"]')
             password_input = page.locator('[placeholder="请输入登录密码"]')
             login_button = page.locator('button.login-btn').first
 
